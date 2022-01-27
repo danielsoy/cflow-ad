@@ -45,7 +45,7 @@ def main(c):
     c.dropout = 0.0  # dropout in s-t-networks
     # dataloader parameters
     if c.dataset == 'mvtec':
-        c.data_path = './data/MVTec-AD'
+        c.data_path = '/content/drive/MyDrive/bottle'
     elif c.dataset == 'stc':
         c.data_path = './data/STC/shanghaitech'
     elif c.dataset == 'video':
